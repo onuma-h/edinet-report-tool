@@ -1,0 +1,42 @@
+# ===== 秘密情報 =====
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+credentials*.json
+secrets*.json
+token*.json
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# ===== ログ・調査用の出力メモ =====
+*.log
+logs/
+*_output.txt
+dei_check.txt
+
+# ===== 取得データ（EDINET / J-Quants から再取得できるもの。再配布しない）=====
+data/
+screening/output/
+
+# ===== 生成物（実行すれば再現できるもの）=====
+output/
+outputs/
+
+# ===== 手書きの解説文（個人の分析メモ）=====
+commentary/
+
+# ===== OS =====
+Thumbs.db
+desktop.ini
+.DS_Store

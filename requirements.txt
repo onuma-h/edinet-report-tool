@@ -1,0 +1,7 @@
+requests==2.34.2
+python-dateutil==2.9.0.post0
+matplotlib==3.11.1
+reportlab==5.0.0
+pillow==12.3.0
+pymupdf==1.28.0
+jquants-api-client==2.3.0
